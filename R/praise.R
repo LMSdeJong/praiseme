@@ -9,7 +9,7 @@
 #'
 #' @export
 
-praise <- function(name="Laura", punction="!"){
+praise <- function(name="Laura", punctuation="!"){
 
   paste0("you're the best, ", name, punctuation)
 
