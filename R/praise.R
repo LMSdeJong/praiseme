@@ -9,9 +9,10 @@
 #'
 #' @export
 
-praise <- function(name="Laura", punctuation="!"){
+praise <- function(name="Laura",
+                   adjective="best",
+                   punctuation="!"){
 
-  paste0("you're the best, ", name, punctuation)
+  glue::glue("you're the {adjective}, {name}, {punctuation}")
 
 }
-

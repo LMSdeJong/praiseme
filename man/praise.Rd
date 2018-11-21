@@ -4,7 +4,7 @@
 \alias{praise}
 \title{Praise someone}
 \usage{
-praise(name = "Laura", punctuation = "!")
+praise(name = "Laura", adjective = "best", punctuation = "!")
 }
 \arguments{
 \item{name}{specifies recipient of praise}
